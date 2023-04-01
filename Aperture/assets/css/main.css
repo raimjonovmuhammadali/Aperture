@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif
+}
+.container{
+    width: 100%;
+    background-color: #000;
+}
+.container header{
+    width: 100%;
+    height: 100vh;
+}
+.container header nav{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+}
+.container header nav .logo{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container header nav .logo img{
+    width: 128px;
+    height: 31px;
+}
+.container header nav .menu{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container header nav .menu ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.container header nav .menu ul li a{
+    color: white;
+    font-size: 15;
+}
+.container header nav .menu button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 40px;
+}
+.container header .header-banner{
+    width: 100%;
+    height: 87vh;
+    background-image: url(../images/bg\ img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container header .header-banner .header-banner-text{
+    width: 580px;
+    height: 250px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 30%;
+    top: 60%;
+}
+.container header .header-banner .header-banner-text p{
+    color: #C0C0C0;
+    padding: 10px;
+}
+.container header .header-banner .header-banner-icons{
+    position: absolute;
+    top: 95%;
+    left: 75%;
+}
+.container main{
+    width: 100%;
+}
+.container main .cards{
+    width: 90%;
+    margin: auto;
+}
+.container main .cards .card-header{
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.container main .cards .card-header h1{
+    font-size: 40px;
+}
+.container main .cards .card-header p{
+    font-size: 23px;
+    color: #C0C0C0;
+}
+.container main .cards .card-main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container main .cards .card-main .card-img:first-child{
+    width: 30%;
+    background-image: url(../images/IMAGE.png);
+    background-position: center;
+    background-size: cover;
+}
+.container main .cards .card-main .card-img{
+    margin-bottom: 20px;
+    color: white;
+}
+.container main .cards .card-main .card-img p{
+    width: 90%;
+    margin-left: 20px;
+}
+.container main .cards .card-main .card-img p:first-child{
+    margin-top: 190px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.container main .cards .card-main .card-img p:nth-child(2){
+    margin-bottom: 10px;
+    color: #C0C0C0;
+}
+.container main .cards .card-main .card-img .btn{
+    width: 180px;
+    padding: 7px;
+    background-color: white;
+    margin-left: 20px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container main .cards .card-main .card-img .btn .circle{
+    width: 35px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 40%;
+    float: left;
+    margin-right: 20px;
+}
+.container main .cards .card-main .card-img:nth-child(2){
+    width: 30%;
+    height: 390px;
+    background-image: url(../images/img\ 1.png);
+    background-position: center;
+    background-size: cover;
+}
+.container main .cards .card-main .card-img:nth-child(3){
+    width: 30%;
+    height: 390px;
+    background-image: url(../images/img\ 2.png);
+    background-position: center;
+    background-size: cover;
+}
+.container main .cards .card-main .card-img:nth-child(4){
+    width: 30%;
+    height: 390px;
+    background-image: url(../images/img\ 3.png);
+    background-position: center;
+    background-size: cover;
+}
+.container main .cards .card-main .card-img:nth-child(5){
+    width: 30%;
+    height: 390px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/48/413/269/joker-black-dc-comics-batman-joaquin-phoenix-hd-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container main .cards .card-main .card-img:nth-child(6){
+    width: 30%;
+    height: 390px;
+    background-image: url(https://lh3.googleusercontent.com/-TEIWYF9ACdmumfm0mm-dTU_YtYyixyIBFhMufX9f6SVvad_deTYSaO8-CJYWQTKEvI=w800-h500);
+    background-position: center;
+    background-size: cover;
+}
+.container main .mountain-banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/IMAGE6.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container main .mountain-banner .mountain-text{
+    width: 400px;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    font-size: 14px;
+}
+.container main .mountain-banner .mountain-text h1{
+    text-transform: uppercase;
+}
+.container main .mountain-banner .mountain-text p{
+    color: #C0C0C0;
+}
+.container main .mountain-banner .mountain-banner-icons{
+    position: absolute;
+    top: 90%;
+    left: 75%;
+}
+.container main .left-right-box{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.container main .left-right-box .left{
+    width: 50%;
+    height: 400px;
+    color: white;
+}
+.container main .left-right-box .left h2{
+    color: #C0C0C0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 70px;
+    margin-top: 70px;
+}
+.container main .left-right-box .left h1{
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    margin: 10px 70px;
+}
+.container main .left-right-box .left p{
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    margin: 10px 70px;
+}
+.container main .left-right-box .left .btn{
+    width: 180px;
+    padding: 7px;
+    background-color: white;
+    margin-left: 70px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container main .left-right-box .left .btn .circle{
+    width: 35px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 40%;
+    float: left;
+    margin-right: 20px;
+}
+.container main .left-right-box .right{
+    width: 50%;
+    height: 400px;
+    background-image: url(../images/IMAGE\ 7.png);
+    background-position: center;
+    background-size: cover;
+}
+.container main .banner2{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/IMAGE\ 8.png    );
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container main .reklama{
+    width: 100%;
+    height: 400px;
+}
+.container main .reklama .rek-text{
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+.container main .reklama .rek-text h1{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.container main .reklama .rek-text p{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #C0C0C0;
+}
+.container main .reklama .rek-icons{
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container main .banner3{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/IMAGE\ 9.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container main .reklama2{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container main .reklama .btn{
+    width: 180px;
+    padding: 7px;
+    background-color: white;
+    color: #000;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -80px;
+}
+.container main .reklama .btn .circle{
+    width: 35px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 40%;
+    float: left;
+    margin-right: 20px;
+}
+
+.container footer{
+    width: 100%;
+    height: 650px;
+    background-color: black;
+}
+.container footer .footer-top{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+.container footer .footer-top .footer-top-left{
+    width: 50%;
+    color: #C0C0C0;
+    font-size: 13px;
+}
+.container footer .footer-top .footer-top-right{
+    width: 50%;
+    color: #fff;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+}
+.container footer .footer-top .footer-top-right ul li{
+    margin-top: 10px;
+}
+.container footer .footer-top .footer-top-right p{
+    color: #C0C0C0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.container footer .footer-line{
+    width: 90%;
+    height: 2px;
+    margin: auto;
+    background: white;
+    margin-top: 30px;
+}
+.container footer .footer-subscribe{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+.container footer .footer-subscribe .footer-subscribe-left{
+    width: 50%;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container footer .footer-subscribe .footer-subscribe-left h1{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.container footer .footer-subscribe .footer-subscribe-left p{
+    font-size: 13px;
+    color: #C0C0C0;
+    margin-top: 20px;
+}
+.container footer .footer-subscribe .footer-subscribe-right{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container footer .footer-subscribe .footer-subscribe-right input{
+    width: 50%;
+    padding: 10px;
+    border-radius: 12px;
+}
+.container footer .footer-subscribe .footer-subscribe-right button{
+    position: absolute;
+    padding: 3px 15px;
+    color: white;
+    background-color: black;
+    border-radius: 11px;
+    right: 180px;
+}
+.container footer .footer-bottom{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+.container footer .footer-bottom .footer-bottom-copy{
+    width: 50%;
+    height: 100px;
+    color: #C0C0C0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.container footer .footer-bottom .footer-bottom-icons{
+    width: 50%;
+    height: 100px;
+    color: #C0C0C0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 24px;
+}
+.container footer .footer-bottom .footer-bottom-icons i{
+    margin: 10px;
+    cursor: pointer;
+}
